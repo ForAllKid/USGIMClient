@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA4934F6A42DC36E52663D5 /* libPods-USGIMClientKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5B7E52FD9341A9220E4EB4 /* libPods-USGIMClientKit.a */; };
+		7115609B207B08DA004FE055 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7115609A207B08DA004FE055 /* AppDelegate.m */; };
+		7115609E207B08DA004FE055 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7115609D207B08DA004FE055 /* ViewController.m */; };
+		711560A1207B08DA004FE055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7115609F207B08DA004FE055 /* Main.storyboard */; };
+		711560A3207B08DC004FE055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711560A2207B08DC004FE055 /* Assets.xcassets */; };
+		711560A6207B08DC004FE055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711560A4207B08DC004FE055 /* LaunchScreen.storyboard */; };
+		711560A9207B08DC004FE055 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560A8207B08DC004FE055 /* main.m */; };
+		711560CE207B08FB004FE055 /* USGConversationCacheStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560B1207B08FB004FE055 /* USGConversationCacheStore.m */; };
+		711560CF207B08FB004FE055 /* USGIMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560B6207B08FB004FE055 /* USGIMClient.m */; };
+		711560D0207B08FB004FE055 /* USGIMBasicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560B8207B08FB004FE055 /* USGIMBasicCommand.m */; };
+		711560D1207B08FB004FE055 /* NSError+USGIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560BA207B08FB004FE055 /* NSError+USGIM.m */; };
+		711560D2207B08FB004FE055 /* USGIMMessageCacheStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560BD207B08FB004FE055 /* USGIMMessageCacheStore.m */; };
+		711560D3207B08FB004FE055 /* USGIMConversationQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560BE207B08FB004FE055 /* USGIMConversationQuery.m */; };
+		711560D4207B08FB004FE055 /* USGIMMessageOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560C0207B08FB004FE055 /* USGIMMessageOption.m */; };
+		711560D5207B08FB004FE055 /* USGIMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560C3207B08FB004FE055 /* USGIMCommon.m */; };
+		711560D6207B08FB004FE055 /* USGIMSocketWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560C4207B08FB004FE055 /* USGIMSocketWrapper.m */; };
+		711560D7207B08FB004FE055 /* USGIMConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560C6207B08FB004FE055 /* USGIMConversation.m */; };
+		711560D8207B08FB004FE055 /* USGIMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560C8207B08FB004FE055 /* USGIMMessage.m */; };
+		711560D9207B08FB004FE055 /* NSDictionary+USGIMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560CC207B08FB004FE055 /* NSDictionary+USGIMAdd.m */; };
+		711560DA207B08FB004FE055 /* USGIMRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 711560CD207B08FB004FE055 /* USGIMRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B164E3DA5850CE89CA9CF27 /* Pods-USGIMClientKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USGIMClientKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USGIMClientKit/Pods-USGIMClientKit.debug.xcconfig"; sourceTree = "<group>"; };
+		563DF4CFA922DE6A4463E724 /* Pods-USGIMClientKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USGIMClientKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-USGIMClientKit/Pods-USGIMClientKit.release.xcconfig"; sourceTree = "<group>"; };
+		5C5B7E52FD9341A9220E4EB4 /* libPods-USGIMClientKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-USGIMClientKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71156096207B08DA004FE055 /* USGIMClientKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USGIMClientKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71156099207B08DA004FE055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7115609A207B08DA004FE055 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7115609C207B08DA004FE055 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7115609D207B08DA004FE055 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		711560A0207B08DA004FE055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		711560A2207B08DC004FE055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		711560A5207B08DC004FE055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		711560A7207B08DC004FE055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711560A8207B08DC004FE055 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		711560B0207B08FB004FE055 /* USGIMMessageOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMMessageOption.h; sourceTree = "<group>"; };
+		711560B1207B08FB004FE055 /* USGConversationCacheStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGConversationCacheStore.m; sourceTree = "<group>"; };
+		711560B2207B08FB004FE055 /* USGIMClient_extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMClient_extension.h; sourceTree = "<group>"; };
+		711560B3207B08FB004FE055 /* USGIMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMCommon.h; sourceTree = "<group>"; };
+		711560B4207B08FB004FE055 /* USGIMSocketWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMSocketWrapper.h; sourceTree = "<group>"; };
+		711560B5207B08FB004FE055 /* USGIMMessage_extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMMessage_extension.h; sourceTree = "<group>"; };
+		711560B6207B08FB004FE055 /* USGIMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGIMClient.m; sourceTree = "<group>"; };
+		711560B7207B08FB004FE055 /* USGIMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMMessage.h; sourceTree = "<group>"; };
+		711560B8207B08FB004FE055 /* USGIMBasicCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGIMBasicCommand.m; sourceTree = "<group>"; };
+		711560B9207B08FB004FE055 /* USGIMConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMConversation.h; sourceTree = "<group>"; };
+		711560BA207B08FB004FE055 /* NSError+USGIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+USGIM.m"; sourceTree = "<group>"; };
+		711560BB207B08FB004FE055 /* USGIMRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMRouter.h; sourceTree = "<group>"; };
+		711560BC207B08FB004FE055 /* NSDictionary+USGIMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+USGIMAdd.h"; sourceTree = "<group>"; };
+		711560BD207B08FB004FE055 /* USGIMMessageCacheStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGIMMessageCacheStore.m; sourceTree = "<group>"; };
+		711560BE207B08FB004FE055 /* USGIMConversationQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGIMConversationQuery.m; sourceTree = "<group>"; };
+		711560BF207B08FB004FE055 /* USGConversationCacheStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGConversationCacheStore.h; sourceTree = "<group>"; };
+		711560C0207B08FB004FE055 /* USGIMMessageOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGIMMessageOption.m; sourceTree = "<group>"; };
+		711560C1207B08FB004FE055 /* USGIMHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMHeader.h; sourceTree = "<group>"; };
+		711560C2207B08FB004FE055 /* USGIMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMClient.h; sourceTree = "<group>"; };
+		711560C3207B08FB004FE055 /* USGIMCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGIMCommon.m; sourceTree = "<group>"; };
+		711560C4207B08FB004FE055 /* USGIMSocketWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGIMSocketWrapper.m; sourceTree = "<group>"; };
+		711560C5207B08FB004FE055 /* USGIMConversation_extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMConversation_extension.h; sourceTree = "<group>"; };
+		711560C6207B08FB004FE055 /* USGIMConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGIMConversation.m; sourceTree = "<group>"; };
+		711560C7207B08FB004FE055 /* NSError+USGIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+USGIM.h"; sourceTree = "<group>"; };
+		711560C8207B08FB004FE055 /* USGIMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGIMMessage.m; sourceTree = "<group>"; };
+		711560C9207B08FB004FE055 /* USGIMBasicCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMBasicCommand.h; sourceTree = "<group>"; };
+		711560CA207B08FB004FE055 /* USGIMConversationQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMConversationQuery.h; sourceTree = "<group>"; };
+		711560CB207B08FB004FE055 /* USGIMMessageCacheStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGIMMessageCacheStore.h; sourceTree = "<group>"; };
+		711560CC207B08FB004FE055 /* NSDictionary+USGIMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+USGIMAdd.m"; sourceTree = "<group>"; };
+		711560CD207B08FB004FE055 /* USGIMRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGIMRouter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71156093207B08DA004FE055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA4934F6A42DC36E52663D5 /* libPods-USGIMClientKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260A9A1F44B21CAFF86A0EFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B164E3DA5850CE89CA9CF27 /* Pods-USGIMClientKit.debug.xcconfig */,
+				563DF4CFA922DE6A4463E724 /* Pods-USGIMClientKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7115608D207B08DA004FE055 = {
+			isa = PBXGroup;
+			children = (
+				71156098207B08DA004FE055 /* USGIMClientKit */,
+				71156097207B08DA004FE055 /* Products */,
+				260A9A1F44B21CAFF86A0EFA /* Pods */,
+				E18CC06C70D6C73E9F2938B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71156097207B08DA004FE055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71156096207B08DA004FE055 /* USGIMClientKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71156098207B08DA004FE055 /* USGIMClientKit */ = {
+			isa = PBXGroup;
+			children = (
+				711560AF207B08FB004FE055 /* IM */,
+				71156099207B08DA004FE055 /* AppDelegate.h */,
+				7115609A207B08DA004FE055 /* AppDelegate.m */,
+				7115609C207B08DA004FE055 /* ViewController.h */,
+				7115609D207B08DA004FE055 /* ViewController.m */,
+				7115609F207B08DA004FE055 /* Main.storyboard */,
+				711560A2207B08DC004FE055 /* Assets.xcassets */,
+				711560A4207B08DC004FE055 /* LaunchScreen.storyboard */,
+				711560A7207B08DC004FE055 /* Info.plist */,
+				711560A8207B08DC004FE055 /* main.m */,
+			);
+			path = USGIMClientKit;
+			sourceTree = "<group>";
+		};
+		711560AF207B08FB004FE055 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				711560E1207B0A39004FE055 /* Command */,
+				711560E0207B09FF004FE055 /* Router */,
+				711560DF207B09F3004FE055 /* Client */,
+				711560DE207B09E9004FE055 /* Common */,
+				711560DD207B09DC004FE055 /* Wrapper */,
+				711560DC207B09AC004FE055 /* CacheStore */,
+				711560DB207B09A4004FE055 /* Support */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		711560DB207B09A4004FE055 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				711560C7207B08FB004FE055 /* NSError+USGIM.h */,
+				711560BA207B08FB004FE055 /* NSError+USGIM.m */,
+				711560BC207B08FB004FE055 /* NSDictionary+USGIMAdd.h */,
+				711560CC207B08FB004FE055 /* NSDictionary+USGIMAdd.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		711560DC207B09AC004FE055 /* CacheStore */ = {
+			isa = PBXGroup;
+			children = (
+				711560CB207B08FB004FE055 /* USGIMMessageCacheStore.h */,
+				711560BD207B08FB004FE055 /* USGIMMessageCacheStore.m */,
+				711560BF207B08FB004FE055 /* USGConversationCacheStore.h */,
+				711560B1207B08FB004FE055 /* USGConversationCacheStore.m */,
+			);
+			name = CacheStore;
+			sourceTree = "<group>";
+		};
+		711560DD207B09DC004FE055 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				711560B4207B08FB004FE055 /* USGIMSocketWrapper.h */,
+				711560C4207B08FB004FE055 /* USGIMSocketWrapper.m */,
+			);
+			name = Wrapper;
+			sourceTree = "<group>";
+		};
+		711560DE207B09E9004FE055 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				711560B3207B08FB004FE055 /* USGIMCommon.h */,
+				711560C3207B08FB004FE055 /* USGIMCommon.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		711560DF207B09F3004FE055 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				711560C1207B08FB004FE055 /* USGIMHeader.h */,
+				711560C2207B08FB004FE055 /* USGIMClient.h */,
+				711560B6207B08FB004FE055 /* USGIMClient.m */,
+				711560B2207B08FB004FE055 /* USGIMClient_extension.h */,
+				711560B9207B08FB004FE055 /* USGIMConversation.h */,
+				711560C6207B08FB004FE055 /* USGIMConversation.m */,
+				711560C5207B08FB004FE055 /* USGIMConversation_extension.h */,
+				711560B0207B08FB004FE055 /* USGIMMessageOption.h */,
+				711560C0207B08FB004FE055 /* USGIMMessageOption.m */,
+				711560CA207B08FB004FE055 /* USGIMConversationQuery.h */,
+				711560BE207B08FB004FE055 /* USGIMConversationQuery.m */,
+				711560B7207B08FB004FE055 /* USGIMMessage.h */,
+				711560C8207B08FB004FE055 /* USGIMMessage.m */,
+				711560B5207B08FB004FE055 /* USGIMMessage_extension.h */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		711560E0207B09FF004FE055 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				711560BB207B08FB004FE055 /* USGIMRouter.h */,
+				711560CD207B08FB004FE055 /* USGIMRouter.m */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		711560E1207B0A39004FE055 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				711560C9207B08FB004FE055 /* USGIMBasicCommand.h */,
+				711560B8207B08FB004FE055 /* USGIMBasicCommand.m */,
+			);
+			name = Command;
+			sourceTree = "<group>";
+		};
+		E18CC06C70D6C73E9F2938B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5B7E52FD9341A9220E4EB4 /* libPods-USGIMClientKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71156095207B08DA004FE055 /* USGIMClientKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711560AC207B08DC004FE055 /* Build configuration list for PBXNativeTarget "USGIMClientKit" */;
+			buildPhases = (
+				C3267E69D4D788A5D155A5B6 /* [CP] Check Pods Manifest.lock */,
+				71156092207B08DA004FE055 /* Sources */,
+				71156093207B08DA004FE055 /* Frameworks */,
+				71156094207B08DA004FE055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USGIMClientKit;
+			productName = USGIMClientKit;
+			productReference = 71156096207B08DA004FE055 /* USGIMClientKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7115608E207B08DA004FE055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = forkid;
+				TargetAttributes = {
+					71156095207B08DA004FE055 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 71156091207B08DA004FE055 /* Build configuration list for PBXProject "USGIMClientKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7115608D207B08DA004FE055;
+			productRefGroup = 71156097207B08DA004FE055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71156095207B08DA004FE055 /* USGIMClientKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71156094207B08DA004FE055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711560A6207B08DC004FE055 /* LaunchScreen.storyboard in Resources */,
+				711560A3207B08DC004FE055 /* Assets.xcassets in Resources */,
+				711560A1207B08DA004FE055 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3267E69D4D788A5D155A5B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USGIMClientKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71156092207B08DA004FE055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711560D7207B08FB004FE055 /* USGIMConversation.m in Sources */,
+				711560D9207B08FB004FE055 /* NSDictionary+USGIMAdd.m in Sources */,
+				7115609E207B08DA004FE055 /* ViewController.m in Sources */,
+				711560CF207B08FB004FE055 /* USGIMClient.m in Sources */,
+				711560CE207B08FB004FE055 /* USGConversationCacheStore.m in Sources */,
+				711560D3207B08FB004FE055 /* USGIMConversationQuery.m in Sources */,
+				711560A9207B08DC004FE055 /* main.m in Sources */,
+				711560D0207B08FB004FE055 /* USGIMBasicCommand.m in Sources */,
+				7115609B207B08DA004FE055 /* AppDelegate.m in Sources */,
+				711560D2207B08FB004FE055 /* USGIMMessageCacheStore.m in Sources */,
+				711560D8207B08FB004FE055 /* USGIMMessage.m in Sources */,
+				711560D5207B08FB004FE055 /* USGIMCommon.m in Sources */,
+				711560D4207B08FB004FE055 /* USGIMMessageOption.m in Sources */,
+				711560D6207B08FB004FE055 /* USGIMSocketWrapper.m in Sources */,
+				711560DA207B08FB004FE055 /* USGIMRouter.m in Sources */,
+				711560D1207B08FB004FE055 /* NSError+USGIM.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7115609F207B08DA004FE055 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711560A0207B08DA004FE055 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		711560A4207B08DC004FE055 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711560A5207B08DC004FE055 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		711560AA207B08DC004FE055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		711560AB207B08DC004FE055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		711560AD207B08DC004FE055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B164E3DA5850CE89CA9CF27 /* Pods-USGIMClientKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = USGIMClientKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkid.USGIMClientKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		711560AE207B08DC004FE055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 563DF4CFA922DE6A4463E724 /* Pods-USGIMClientKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = USGIMClientKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkid.USGIMClientKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71156091207B08DA004FE055 /* Build configuration list for PBXProject "USGIMClientKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711560AA207B08DC004FE055 /* Debug */,
+				711560AB207B08DC004FE055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711560AC207B08DC004FE055 /* Build configuration list for PBXNativeTarget "USGIMClientKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711560AD207B08DC004FE055 /* Debug */,
+				711560AE207B08DC004FE055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7115608E207B08DA004FE055 /* Project object */;
+}
